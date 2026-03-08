@@ -86,8 +86,7 @@ What happens to your DS in these transfer formats ?
 
 ## Xml  intuition 
 
-
-<BOOKS>  
+```<BOOKS>  
 <book id=“123” loc=“library”>  
    <author>Hull</author>  
    <title>California</title>  
@@ -97,7 +96,7 @@ What happens to your DS in these transfer formats ?
    <author>Su</author>  
    <title> Purdue</title>  
 </article>  
-</BOOKS>  
+</BOOKS>  ```
 Credit :https://goldberg.berkeley.edu/courses/F04/215/XML-215-presentation.ppt  
 
 
