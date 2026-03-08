@@ -21,78 +21,70 @@ image credit due
 ## Data Structures 
 
 
-Why would we differentiate between primitives vs DSs ?  
--Famous DSs   
-    Array : 1D,2D,3D so on …  
-    Stack :   
-    Sets :  
-    Maps  
-    Queue : Simple , circular , priority   
-    List :SLL,DLL,SCLL,DCLL   
-    Tree: bTree ,  
-    Graph :directed , undirected,simple,weighted,connected   
-Tables ? RDDs ? dataframe ?   
-Advanced DS we don't talk about   
-Is Date a DS ? why ? whynot ?  
+- Why would we differentiate between primitives vs DSs ?  
+- Famous DSs   
+  -   Array : 1D,2D,3D so on …  
+  -   Stack :   
+  -   Sets :  
+  -   Maps  
+  -   Queue : Simple , circular , priority   
+  -   List :SLL,DLL,SCLL,DCLL   
+  -   Tree: bTree ,  
+  -   Graph :directed , undirected,simple,weighted,connected   
+- Tables ? RDDs ? dataframe ?   
+- Advanced DS we don't talk about   
+- Is Date a DS ? why ? whynot ?  
 
 
 
-## Slide 4
-
-Taking a grip on DS
+## Taking a grip on DS
 
 
-What gives rise to O notation ?  
-Benefits vs limitations   
-time vs. space  
-performance vs. elegance  
-generality vs. simplicity  
-one operation’s performance vs. another’s  
-Choices made by language runtime !  
-The cast system :D   
-Type system ? what about them ?  
-Objects ? don't get me started …. :P   
+- What gives rise to O notation?  
+- Benefits vs limitations   
+    - time vs. space  
+    - performance vs. elegance  
+    - generality vs. simplicity  
+    - one operation’s performance vs. another’s  
+- Choices made by language runtime !  
+- The cast system :D   
+- Type system ? what about them ?  
+- Objects ? don't get me started …. :P   
   
 
 
 
-## Slide 5
-
-What about “other than text”
+## What about “other than text”
 
 
-Images  
-Voice   
-Vidoes   
-Geospatial    
-Many more  
-What do we mean by unstructured data ?   
-Are these DS ?  
-Skipping data storage formats : perquet ,ORC ,avro ,protobuff .Also yaml  
+- Images  
+- Voice   
+- Vidoes   
+- Geospatial    
+- Many more  
+- What do we mean by unstructured data ?   
+- Are these DS ?  
+- Skipping data storage formats : perquet ,ORC ,avro ,protobuff .Also yaml  
 
 
 
-## Slide 6
-
-Data Transfer 
+## Data Transfer 
 
 
-Tab vs common vs pipe vs something separated : Loose and easy  
-XML is great ? why ?  
-JSOn is great ? why ?  
-Is schema necessary ? where and how it will impact ?   
-The Document model inspiration of the www !  
+- Tab vs common vs pipe vs something separated : Loose and easy  
+- XML is great ? why ?  
+- JSOn is great ? why ?  
+- Is schema necessary ? where and how it will impact ?   
+- The Document model inspiration of the www !  
   
-Aside : Namespacing and RSS/SOAP/ATOM  
+- Aside : Namespacing and RSS/SOAP/ATOM  
   
   
   
 What happens to your DS in these transfer formats ?
 
 
-## Slide 7
-
-Xml  intuition 
+## Xml  intuition 
 
 
 <BOOKS>  
@@ -113,93 +105,115 @@ Credit :https://goldberg.berkeley.edu/courses/F04/215/XML-215-presentation.ppt
 ![](assets/images/slide-7-img.png)
 
 
-## Slide 8
-
-JSON
+## JSON
 
 
-•JSON is not a document format.  
-•JSON is not a markup language.  
-•JSON is not a general serialization format.  
- No cyclical/recurring structures.  
- No invisible structures.  
- No functions  
-JSON has no validator  
-Credit : Crockford 
+- JSON is not a document format.  
+- JSON is not a markup language.  
+- JSON is not a general serialization format.  
+ - No cyclical/recurring structures.  
+ - No invisible structures.  
+ - No functions  
+- JSON has no validator  (!?)
+_Credit : Crockford _
 
 
-•JSON's simple values are the same as used in programming languages.  
-•No restructuring is required: JSON's structures look like conventional programming language structures.  
-•JSON's object is record, struct, object, dictionary, hash, associate array...  
-•JSON's array is array, vector, sequence, list…  
+- JSON's simple values are the same as used in programming languages.  
+- No restructuring is required: JSON's structures look like conventional programming language structures.  
+- JSON's object is record, struct, object, dictionary, hash, associate array...  
+- JSON's array is array, vector, sequence, list…  
 Language independent data interchange  
 
 
 
-## Slide 9
-
-JSON is not XML
+## JSON is not XML
 
 
-•objects  
-•arrays  
-•strings  
-•numbers  
-•booleans  
-•null  
+- objects  
+- arrays  
+- strings  
+- numbers  
+- booleans  
+- null  
   
-Credit : Crockford 
+_Credit : Crockford 
+_
+
+- element  
+- attribute  
+- attribute string  
+- content  
+- <![CDATA[ ]]>  
+- entities  
+- declarations  
+- schema  
+- stylesheets  
+- comments  
+- version  
+- namespace
 
 
-element  
-attribute  
-attribute string  
-content  
-<![CDATA[ ]]>  
-entities  
-declarations  
-schema  
-stylesheets  
-comments  
-version  
-namespace
+## Data meet the DataBase 
 
 
-## Slide 10
-
-Data meet the DataBase 
-
-
-What happens to your DS in database ?  
-Issues of fitment and loss of detail   
-Internal DS used by db (for  academic interest )  
-Different DB/Storage types ?
+- What happens to your DS in database ?  
+- Issues of fitment and loss of detail   
+- Internal DS used by db (for  academic interest )  
+- Different DB/Storage types ?
 
 
-## Slide 11
-
-Database types or Data organization styles ?
+## Database types or Data organization styles ?
 
 
-RDBMS : oracle,mysql,postgres  
-Key Value stores : Redis ,Memcache  
-Document Store :MongoDB, DynamoDB   
-Wide Column : Hbase , Cassandra   
-Graph DB : Neo4j  
-General features for NOSql family   
-Semi structured data   
-Non relational flexible schema    
-Looser transaction guarantees   
-What about CMS ?  
-What about big data ?  
-Problems of scale for DBs: a CAP for you 
+- RDBMS : oracle,mysql,postgres  
+- Key Value stores : Redis ,Memcache  
+- Document Store :MongoDB, DynamoDB   
+- Wide Column : Hbase , Cassandra   
+- Graph DB : Neo4j  
+- General features for NOSql family   
+    - Semi structured data   
+    - Non relational flexible schema    
+    - Looser transaction guarantees   
+- What about CMS ?  
+- What about big data ?  
+- Problems of scale for DBs: a CAP for you 
 
 
-## Slide 12
+## NSQL Intuition 
 
-NSQL Intuition 
+ Outer pipes  Cell padding 
+No sorting
+| Data Model     | relations 
 
+tuples   
 
+attributes  
+
+domains
+
+normalization | documents
+
+graphs
+
+key/values                  |
+| -------------- | ----------------------------------------------------------- | ---------------------------------------------- |
+| Query Model    | relational algebra
+
+tuple calculus                          | graph traversal
+
+text search
+
+map/reduce
+
+<br> |
+| Implementation | rigid schemas
+
+ACID compliance                              | flexible schemas 
+
+BASE                        |
+📋 Copy
+Clear
+Buy Me a Coffee at ko-fi.com
 ![](assets/images/slide-12-img.png)
 
 
