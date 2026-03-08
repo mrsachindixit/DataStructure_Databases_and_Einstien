@@ -1,17 +1,15 @@
-## Slide 1
+## Data Structure ,Databases and Einstein
 
-Data Structure ,Databases and Einstein 
+
 
 
 By Sachin Dixit
 
 
-![](assets/images/slide-1-img.jpg)
 
 
-## Slide 2
 
-What is Data ?
+## What is Data ?
 
 
 
@@ -19,22 +17,20 @@ What is Data ?
 
 ![](assets/images/slide-2-img.png)
 
-
-## Slide 3
-
-Data Structures 
+image credit due
+## Data Structures 
 
 
 Why would we differentiate between primitives vs DSs ?  
-Famous DSs   
-Array : 1D,2D,3D so on …  
-Stack :   
-Sets :  
-Maps  
-Queue : Simple , circular , priority   
-List :SLL,DLL,SCLL,DCLL   
-Tree: bTree ,  
-Graph :directed , undirected,simple,weighted,connected   
+-Famous DSs   
+    Array : 1D,2D,3D so on …  
+    Stack :   
+    Sets :  
+    Maps  
+    Queue : Simple , circular , priority   
+    List :SLL,DLL,SCLL,DCLL   
+    Tree: bTree ,  
+    Graph :directed , undirected,simple,weighted,connected   
 Tables ? RDDs ? dataframe ?   
 Advanced DS we don't talk about   
 Is Date a DS ? why ? whynot ?  
