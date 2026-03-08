@@ -181,41 +181,10 @@ _
 
 ## NSQL Intuition 
 
- Outer pipes  Cell padding 
-No sorting
-| Data Model     | relations 
-
-tuples   
-
-attributes  
-
-domains
-
-normalization | documents
-
-graphs
-
-key/values                  |
-| -------------- | ----------------------------------------------------------- | ---------------------------------------------- |
-| Query Model    | relational algebra
-
-tuple calculus                          | graph traversal
-
-text search
-
-map/reduce
-
-<br> |
-| Implementation | rigid schemas
-
-ACID compliance                              | flexible schemas 
-
-BASE                        |
-📋 Copy
-Clear
-Buy Me a Coffee at ko-fi.com
-![](assets/images/slide-12-img.png)
-
+RDBMS vs NoSQL
+| Data Model     | relations tuples   attributes  domains normalization | documents graphs key/values                  |
+| Query Model    | relational algebra tuple calculus                    | graph traversal text search map/reduce       |
+| Implementation | rigid schemas ACID compliance                        | flexible schemas BASE                        |
 
 Image source :kdnuggets  
 
